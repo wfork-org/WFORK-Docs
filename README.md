@@ -38,6 +38,7 @@ Fork → branch → commit feat/fix
 <details open>
   <summary>DEV Log</summary>
 
+- [x] v0.0.2 - create auto update and rebuild
 - [x] v0.0.1 - создан docker mkdocs
 
 
@@ -47,7 +48,7 @@ Fork → branch → commit feat/fix
 ## Update repository
 
 git add .
-git commit -m "v0.0.1 - создан docker mkdocs"
+git commit -m "v0.0.2 - create auto update and rebuild"
 git push
 
 
