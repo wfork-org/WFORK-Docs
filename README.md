@@ -48,7 +48,7 @@ Fork → branch → commit feat/fix
 ## Update repository
 
 git add .
-git commit -m "v0.0.2 - create auto update and rebuild"
+git commit -m "mkdocs test"
 git push
 
 
