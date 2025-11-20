@@ -1,0 +1,19 @@
+services:
+  mkdocs:
+    build: .
+    container_name: mkdocs
+    restart: unless-stopped
+    ports:
+      - "8520:8520"
+    volumes:
+      - .:/app
+      - ./docs:/docs
+    command: mkdocs serve -a 0.0.0.0:8520
+    networks:
+      - pc2-net
+
+networks:
+  pc2-net:
+    external: true
+    name: pc2-net
+
